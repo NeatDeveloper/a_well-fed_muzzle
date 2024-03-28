@@ -1,0 +1,12 @@
+@use 'colors';
+
+@use '@neat-core/footing-styles/vars' with (
+    $mode: "pretty",
+    
+    $color-primary: colors.$primary,
+    $color-secondary: colors.$secondary,
+    $color-thumb: colors.$primary,
+    $color-track: colors.$bg-color,
+);
+
+@use '@neat-core/footing-styles';
